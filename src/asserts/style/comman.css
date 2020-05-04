@@ -1,0 +1,23 @@
+/* fontsize */
+.fnt-16{
+    font-size: 16px;
+}
+.fnt-19{
+    font-size: 19px;
+}
+.fnt-35{
+    font-size: 35px;
+}
+
+/* Common Button */
+.btn-common {
+    padding: 13px 30px 13px 30px;
+    color: white;
+    border-radius: 3px;
+    font-size: 15px;
+}
+.btn-red{
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+    
+}
