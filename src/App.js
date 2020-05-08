@@ -1,19 +1,13 @@
 import React from 'react';
-import './asserts/style/comman.css'
-
-export default ()=>{
-
-return(
-<>
-<button className="btn-common btn-red">Contact</button>
-
-  
-</>
-
-
-)
-
-
-
-
+import Navbar from './components/header/header';
+import 'bootstrap/dist/css/bootstrap.min.css';
+function App () {
+  return ( 
+    <div className="App">
+      <Navbar/>
+     </div>
+  );
 }
+
+export default App;
+
